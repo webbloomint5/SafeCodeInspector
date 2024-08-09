@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SafeCodeInspector
 
 **SafeCodeInspector** è un'estensione per Visual Studio Code progettata per aiutare gli sviluppatori a rilevare deprecazioni, vulnerabilità e pratiche di codifica non sicure nei loro progetti, con un'attenzione particolare per le applicazioni React.
@@ -38,3 +39,6 @@ Questa estensione è distribuita sotto la licenza MIT. Vedi il file [LICENSE](./
 Sviluppato da **Tiziana Maggio**.
 
 Contattami: tizianamaggio15@gmail.com
+=======
+# SafeCodeInspector
+>>>>>>> f7c7b8a5252440139a3ff87c6f0713240ce94bcc
