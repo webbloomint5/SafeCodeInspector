@@ -1,0 +1,38 @@
+{
+    "name": "SafeCodeInspector",
+    "displayName": "Safe Code Inspector",
+    "description": "Un'estensione per rilevare deprecazioni e vulnerabilità nel codice.",
+    "version": "0.1.0",
+    "publisher": "Tiziana Maggio",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.safeCodeInspect"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.safeCodeInspect",
+                "title": "Safe Code Inspect"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "pretest": "npm run compile",
+        "test": "node ./out/test/runTest.js"
+    },
+    "devDependencies": {
+        "@types/node": "^14.14.37",
+        "@types/vscode": "^1.60.0",
+        "typescript": "^4.0.0",
+        "vscode-test": "^1.4.0"
+    }
+}
